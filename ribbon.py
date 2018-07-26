@@ -539,4 +539,4 @@ class sineRibbonLoc():
 
 
    
-sineRibbonLoc()
+sineRibbonLocUI()
