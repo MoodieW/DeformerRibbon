@@ -4,9 +4,10 @@
     Author: Wayne Moodie
     Date created: 4/18/2018
     Email : moodiewayne@gmail.com
-    Date last modified: 4/30/20
+    Date last modified: 4/30/2018
     Python Version: 2.7
-    Todo List : connect UI
+	
+	
 '''
 from functools import partial
 from pymel.core import *
@@ -22,7 +23,7 @@ def sineRibbonLocUI():
     def updateNum(value, *args):
      
         rib.bndJnts = value    
-        print  rib.bndJnts 
+
     
     #Create a variable for the window name
     winName = 'proceduralRibbon'
@@ -66,6 +67,7 @@ def sineRibbonLocUI():
 
 
 class sineRibbonLoc():
+
     ''' Creates a procedural setup of the sine ribbon inspired by Jorn-Harald Paulsen. 
     The user needs to define Number of Controls,How many bind joints and the name of the
     ribbon. Run the CreateTargs function andplace the locator at the desired start andend positions. 
